@@ -1,0 +1,41 @@
+
+
+
+body{
+
+    font-size: 20px;
+    background-color: antiquewhite;
+    color: aqua;
+    
+
+}
+div.main{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    /* color: rgb(0, 0, 100) ; */
+    
+}
+
+ /* h1 h2{
+
+    color: blue;
+} */
+
+h1{
+    color: blue;
+}
+
+h2{
+    color: red;
+}
+ p{
+
+    color: purple;
+}
+
+.para{
+    color: rgb(0, 255, 0);
+}
