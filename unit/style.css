@@ -1,0 +1,34 @@
+
+.grand{
+
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 20px;
+
+}
+
+div{
+
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+}
+
+.parent{
+
+    /* font-size: 30px; */
+   
+   
+}
+
+.child .para{
+
+    font-size: 3rem;
+}
+
+
+.parent2 p{
+
+    font-size: 48px;
+    width: 50vw;
+}
