@@ -1,0 +1,41 @@
+
+header{
+
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 0.5rem;
+    color: red;
+
+}
+
+.bottom{
+
+    border: 2px solid crimson;
+    margin: 1rem;
+    padding: 0.8rem;
+    display: flex;
+}
+
+p{
+
+    border: 1px solid crimson;
+    width: 100%;
+    /* width: 70ch; */
+}
+form{
+
+    border: 1px solid crimson;
+    margin: 1rem;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    
+}
+
+
+button{
+
+    font-weight: 700;
+}
