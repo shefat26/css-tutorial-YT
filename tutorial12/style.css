@@ -41,3 +41,10 @@ body{
     color: orange;
     column-span: all;
 }
+
+/* to keep controll the line space,  highfan "-" with "The Dude"  */
+
+span{
+
+    white-space: nowrap;
+}
