@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Roboto&display=swap");
+
+
+html{ scroll-behavior: smooth;}
+
+
+body{
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+section{
+
+    /* position: relative; */
+    height: 50vh;
+}
+
+
+.blue{ background-color: blue;}
+.red{ background-color: red;}
+.green{ background-color: green;}
+
+
+header, footer{
+
+    color: white;
+    text-align: center;
+    height: 100px;
+    font-size: 3rem;
+}
+
+
+header{
+
+    position: sticky;
+    top: 0;
+}
+
+
+
+footer{
+    background-color: black;
+    position: sticky;
+    bottom: 0;
+}
+
+
+a:visited{
+
+    color: white;
+
+}
+
+.social{
+
+    background-color: royalblue;
+    color: aliceblue;
+    font-size: inherit;
+    padding: 1rem;
+    position: fixed;
+    top: 30%;
+    left: 0;
+    z-index: 1;
+}
