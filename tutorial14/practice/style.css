@@ -1,0 +1,141 @@
+
+.container{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: flex;
+
+    height: 20vh;
+    position: relative;
+    /* align-content: center; */
+
+    
+}
+
+.box{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    height: 30px;
+    width: 5rem;
+    background-color: aqua;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+
+    flex-shrink: 1;
+}
+
+
+#first{
+
+    position: fixed;
+    z-index: 1;
+    
+}
+
+#first:nth-child(2){
+    
+    display: flex;
+
+    order: 4;
+}
+
+.box2{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: red;
+    position: absolute;
+    right: 10px;
+    top: 3000px;
+    /* bottom: 500px; */
+    font-weight: 700;
+    gap: 5px;
+
+  font-weight: 700;
+  gap: 5px;
+
+}
+
+
+.para{
+
+    font-size: 40px;
+    position: absolute;
+    left: 5px;
+    top: 60px;
+}
+
+a{
+
+    text-decoration: none;
+    right: 10px;
+    /* top: 2400px; */
+    /* position: absolute;
+    bottom: 50px;
+    right:10px
+     */
+   
+}
+
+h2{
+
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightblue;
+
+}
+
+#head1{
+
+
+    margin: 80px 5px 10px;
+    
+}
+
+#head2{
+
+
+    background-color: yellow;
+    position: sticky;
+    top: 150px;
+    flex-shrink: 1;
+
+}
+
+#head3{
+
+
+    background-color: greenyellow;
+
+}
+
+#head4{
+
+
+    background-color: purple;
+
+}
+
+#head5{
+
+
+    background-color: blue;
+
+}
+#head6{
+
+
+    background-color: red;
+
+}
