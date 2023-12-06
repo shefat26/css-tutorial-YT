@@ -43,6 +43,7 @@
     order: 4;
 }
 
+
 .box2{
 
     border: 1px solid black;
@@ -57,13 +58,13 @@
     position: absolute;
     right: 10px;
     top: 3000px;
-    /* bottom: 500px; */
+    /* bottom: 0; */
     font-weight: 700;
     gap: 5px;
 
   font-weight: 700;
   gap: 5px;
-
+  background-color: antiquewhite;
 }
 
 
