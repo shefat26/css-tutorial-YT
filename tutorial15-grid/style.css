@@ -34,3 +34,22 @@ body{
 
 }
 
+
+.box:first-child{
+    background-color: blue;
+    /* grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4; */
+    /* row-gap: 5px; */
+
+    grid-column: 1 / 4;
+    grid-row: 1 / 4;
+
+    display: grid;
+
+    /* align-content: end;
+    justify-content: center; */
+
+    place-content: end center;
+}
